@@ -37,13 +37,8 @@ javacOptions ++= Seq("-Xlint",
   "-Xms512M",
   "-Xmx2048M",
   "-XX:MaxPermSize=2048M",
-<<<<<<< 1f4fb11f4f692d5641b56ba828c03edee95c2c1f
-  "-XX:+CMSClassUnloadingEnabled")
-=======
   "-XX:+CMSClassUnloadingEnabled"
 )
->>>>>>> lucene: update to v6.2.0
-
 
 // Add jcenter repo
 resolvers += Resolver.jcenterRepo
